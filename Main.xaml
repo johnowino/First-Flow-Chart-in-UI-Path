@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="621,515" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="612,465" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -30,41 +30,42 @@
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
-      <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
-      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
-      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
-      <AssemblyReference>System.Linq</AssemblyReference>
-      <AssemblyReference>System.Data.Common</AssemblyReference>
-      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>PresentationFramework</AssemblyReference>
-      <AssemblyReference>WindowsBase</AssemblyReference>
-      <AssemblyReference>PresentationCore</AssemblyReference>
-      <AssemblyReference>System.Xaml</AssemblyReference>
-      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.ObjectModel</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>NPOI</AssemblyReference>
-      <AssemblyReference>System.Memory.Data</AssemblyReference>
-      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="450,163" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -73,45 +74,39 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="634,637" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="1180,858" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
-        <Variable x:TypeArguments="x:Int32" Name="GuessNumber">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:Int32" Value="50" />
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:Int32" Default="50" Name="GuessNumber" />
         <Variable x:TypeArguments="x:Int32" Name="RandomNumber" />
-        <Variable x:TypeArguments="x:String" Name="Message">
-          <Variable.Default>
-            <Literal x:TypeArguments="x:String">Guess a number between 1 and 99</Literal>
-          </Variable.Default>
-        </Variable>
+        <Variable x:TypeArguments="x:String" Default="Guess a number between 1 and 99" Name="Message" />
       </Flowchart.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+          <av:Point x:Key="ShapeLocation">822,0</av:Point>
           <av:Size x:Key="ShapeSize">60,75</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,129</av:PointCollection>
+          <av:PointCollection x:Key="ConnectorLocation">852,75 852,125</av:PointCollection>
+          <x:Double x:Key="Width">1146.5</x:Double>
+          <x:Double x:Key="Height">820.6200000000001</x:Double>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
-        <x:Reference>__ReferenceID4</x:Reference>
+        <x:Reference>__ReferenceID6</x:Reference>
       </Flowchart.StartNode>
-      <FlowStep x:Name="__ReferenceID4">
+      <FlowStep x:Name="__ReferenceID6">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">83,129</av:Point>
-            <av:Size x:Key="ShapeSize">434,82</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">300,211 300,261</av:PointCollection>
+            <av:Point x:Key="ShapeLocation">635,125</av:Point>
+            <av:Size x:Key="ShapeSize">434,83</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">852,207 852,257</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_1">
+        <Assign sap:VirtualizedContainerService.HintSize="434,83" sap2010:WorkflowViewState.IdRef="Assign_1">
           <Assign.To>
             <OutArgument x:TypeArguments="x:Int32">[RandomNumber]</OutArgument>
           </Assign.To>
           <Assign.Value>
-            <InArgument x:TypeArguments="x:Int32">[newRandom().Next(1,99)]</InArgument>
+            <InArgument x:TypeArguments="x:Int32">[new Random().Next(1,99)]</InArgument>
           </Assign.Value>
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -123,12 +118,12 @@
           <FlowStep x:Name="__ReferenceID0">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <av:Point x:Key="ShapeLocation">200,261</av:Point>
-                <av:Size x:Key="ShapeSize">200,52</av:Size>
-                <av:PointCollection x:Key="ConnectorLocation">300,313 300,343 300.14166666666665,343 300.14166666666665,363</av:PointCollection>
+                <av:Point x:Key="ShapeLocation">752,257</av:Point>
+                <av:Size x:Key="ShapeSize">200,53</av:Size>
+                <av:PointCollection x:Key="ConnectorLocation">852,309 852,339 852.5,339 852.5,359</av:PointCollection>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="[Message]">
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" Title="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="200,53" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="[Message]">
               <ui:InputDialog.Result>
                 <OutArgument x:TypeArguments="x:Int32">[GuessNumber]</OutArgument>
               </ui:InputDialog.Result>
@@ -139,28 +134,25 @@
               </sap:WorkflowViewStateService.ViewState>
             </ui:InputDialog>
             <FlowStep.Next>
-              <FlowDecision x:Name="__ReferenceID1" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
-                <FlowDecision.Condition>
-                  <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="GuessNumber = RandomNumber" />
-                </FlowDecision.Condition>
+              <FlowDecision x:Name="__ReferenceID1" Condition="[GuessNumber = RandomNumber]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="79,87" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    <av:Point x:Key="ShapeLocation">260.64166666666665,363</av:Point>
+                    <av:Point x:Key="ShapeLocation">813,359</av:Point>
                     <av:Size x:Key="ShapeSize">79,87</av:Size>
-                    <av:PointCollection x:Key="TrueConnector">260.64166666666665,406.5 230.64166666666665,406.5 230.64166666666665,406.02 210.64166666666665,406.02</av:PointCollection>
-                    <av:PointCollection x:Key="FalseConnector">339.64166666666665,406.5 369.64166666666665,406.5 369.64166666666665,333 425.14166666666665,333 425.14166666666665,363</av:PointCollection>
+                    <av:PointCollection x:Key="TrueConnector">813,402.5 783,402.5 783,540 716,540</av:PointCollection>
+                    <av:PointCollection x:Key="FalseConnector">892,402.5 912.5,402.5 912.5,466 852.5,466 852.5,496</av:PointCollection>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <FlowDecision.True>
                   <FlowStep x:Name="__ReferenceID2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <av:Point x:Key="ShapeLocation">10.641666666666652,380.02</av:Point>
-                        <av:Size x:Key="ShapeSize">200,52</av:Size>
+                        <av:Point x:Key="ShapeLocation">516,514</av:Point>
+                        <av:Size x:Key="ShapeSize">200,53</av:Size>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,52" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Congratulations! You guessed correectly. The number was &quot; + RandomNumber.ToString + &quot;. &quot;]">
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="200,53" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Congratulations! You guessed correectly. The number was &quot; + RandomNumber.ToString + &quot;. &quot;]">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -170,17 +162,70 @@
                   </FlowStep>
                 </FlowDecision.True>
                 <FlowDecision.False>
-                  <FlowDecision x:Name="__ReferenceID3" DisplayName="Comparison" sap:VirtualizedContainerService.HintSize="71,87" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
-                    <FlowDecision.Condition>
-                      <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="GuessNumber &gt; RandomNumber" />
-                    </FlowDecision.Condition>
+                  <FlowDecision x:Name="__ReferenceID3" Condition="[GuessNumber &gt; RandomNumber]" DisplayName="Comparison" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                        <av:Point x:Key="ShapeLocation">389.64166666666665,363</av:Point>
-                        <av:Size x:Key="ShapeSize">71,87</av:Size>
+                        <av:Point x:Key="ShapeLocation">817,496</av:Point>
+                        <av:Size x:Key="ShapeSize">70,87</av:Size>
+                        <av:PointCollection x:Key="TrueConnector">817,539.5 787,539.5 787,603 564,603 564,674 534,674</av:PointCollection>
+                        <av:PointCollection x:Key="FalseConnector">888,539.5 918,539.5 918,659 593,659 593,730 623,730</av:PointCollection>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
+                    <FlowDecision.True>
+                      <FlowStep x:Name="__ReferenceID4">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <av:Point x:Key="ShapeLocation">100,633</av:Point>
+                            <av:Size x:Key="ShapeSize">434,83</av:Size>
+                            <av:PointCollection x:Key="ConnectorLocation">317,716 317,746 77,746 77,283.5 752,283.5</av:PointCollection>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign sap:VirtualizedContainerService.HintSize="434,83" sap2010:WorkflowViewState.IdRef="Assign_2">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[Message]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">Too Big,,,,,,, Try again</InArgument>
+                          </Assign.Value>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Assign>
+                        <FlowStep.Next>
+                          <x:Reference>__ReferenceID0</x:Reference>
+                        </FlowStep.Next>
+                      </FlowStep>
+                    </FlowDecision.True>
+                    <FlowDecision.False>
+                      <FlowStep x:Name="__ReferenceID5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <av:Point x:Key="ShapeLocation">623,689</av:Point>
+                            <av:Size x:Key="ShapeSize">434,83</av:Size>
+                            <av:PointCollection x:Key="ConnectorLocation">840,772 840,793.5 1072,793.5 1072,283.5 952,283.5</av:PointCollection>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Assign sap:VirtualizedContainerService.HintSize="434,83" sap2010:WorkflowViewState.IdRef="Assign_3">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:String">[Message]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:String">Too Small,,,,,,, Try again</InArgument>
+                          </Assign.Value>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Assign>
+                        <FlowStep.Next>
+                          <x:Reference>__ReferenceID0</x:Reference>
+                        </FlowStep.Next>
+                      </FlowStep>
+                    </FlowDecision.False>
                   </FlowDecision>
                 </FlowDecision.False>
               </FlowDecision>
@@ -192,6 +237,8 @@
       <x:Reference>__ReferenceID1</x:Reference>
       <x:Reference>__ReferenceID2</x:Reference>
       <x:Reference>__ReferenceID3</x:Reference>
+      <x:Reference>__ReferenceID4</x:Reference>
+      <x:Reference>__ReferenceID5</x:Reference>
     </Flowchart>
   </Sequence>
 </Activity>
